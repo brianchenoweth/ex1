@@ -1,0 +1,112 @@
+body {
+    background-image: url("images/sandbag_background.jpg");
+}
+
+#navbar {
+    font-family:'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    text-align: center;
+    font-size: 24px;
+    font-variant: small-caps;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li a {
+    text-decoration: none;
+    text-align: center;
+    margin-right: 15px;
+}
+
+li {
+    display: inline;
+}
+
+
+
+h1 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 55px;
+    font-weight: 500;
+    font-variant: small-caps;
+    text-decoration: underline overline;
+    text-align: center;
+}
+
+p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-variant: small-caps;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+img.main {
+	display:block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+img.two {
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#two {
+    text-align: center;
+}
+
+
+input:focus {
+    border: 3px solid #555;
+}
+
+textarea:focus {
+    border: 3px solid #555;
+}
+
+textarea {
+    resize: none;
+}
+
+input[type=submit], input[type=reset] {
+    border: 2px solid #555;
+    padding: 6px;
+    margin: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+fieldset {
+    border: 2px solid #555;
+    display: inline;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+legend {
+    font-size: 20px;
+}
+
+#field {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+tr:nth-child(even) {
+    background-color: #CCC;
+}
+
+table {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
